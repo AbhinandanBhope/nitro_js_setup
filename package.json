@@ -1,0 +1,23 @@
+{
+  "name": "auth-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nitro dev",
+    "build": "nitro build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.1",
+    "h3": "^1.9.0",
+    "nitropack": "^2.8.1",
+    "swagger-ui-express": "^5.0.0",
+    "@types/swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/bcrypt": "^5.0.2",
+    "typescript": "^5.3.3"
+  }
+}
